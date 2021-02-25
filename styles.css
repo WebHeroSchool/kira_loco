@@ -1,0 +1,108 @@
+.body {
+  margin: 0 auto;
+  padding-bottom: 100%;
+}
+
+.header, .main-1, .footer {
+  display: flex;
+  position: relative;
+  background: linear-gradient(to right, #000 35%, #fff 32%);
+}
+
+.header {
+  justify-content: start;
+}
+
+.header__logo {
+  font: 500 30px/37px montserrat_regular, arial, helvetica, sans-serif;
+  display: flex;
+  padding: 36px 238px 0px 52px;
+  color: #fff;
+}
+
+.lang {
+  padding-top: 25px;
+  font: 500 20px/24px montserrat_regular, arial, helvetica, sans-serif;
+  display: flex;
+  color: #fff;
+  cursor: pointer;
+  align-items: center;
+}
+
+.lang-btn {
+  content: '';
+  display: inline-block;
+  cursor: pointer;
+  background: #000;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-flex;
+  padding: 3px;
+  margin-left: 0px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.lang-btn:hover {
+  opacity: .5;
+  transition: 0.5s;
+}
+
+.main-1 {
+  padding-left: 186px;
+  padding-top: 169px;
+  padding-bottom: 169px;
+}
+.main-1__content_title {
+  font: bold 80px/82px montserrat_regular, arial, helvetica, sans-serif;
+  color: #000;
+  margin-bottom: 26px;
+  margin-left: 56px;
+}
+
+.main-1__content_subtitle {
+  font: 15px/21px montserrat_regular, arial, helvetica, sans-serif;
+  color: #000;
+  margin-left: 56px;
+  margin-bottom: 36px;
+}
+
+.main-1__content_button {
+  font: 13px/0px montserrat_regular, arial, helvetica, sans-serif;
+  padding: 14px 41px;
+  color: #000;
+  background: #fff;
+  border: 1.5px solid black;
+  margin: 0 54px 0 56px;
+  cursor: pointer;
+}
+
+.main-1__content_button:hover {
+  background: #000;
+  color: #fff;
+  letter-spacing: 1px;
+  transition-duration: 1s;
+}
+
+.main-1__content_next {
+  font: 13px/0px montserrat_regular, arial, helvetica, sans-serif;
+  cursor: pointer;
+  margin-right: 17px;
+}
+
+.main-1__content_arrow {
+  display: inline-block;
+  justify-content: center;
+  background-color: #000;
+  width: 43px;
+  height: 0px;
+  border: 0.5px solid black;
+}
+
+.main-2 {
+  background: #FAE8E4;
+}
+
+.main-3 {
+  background: #EBE3D8;
+}
