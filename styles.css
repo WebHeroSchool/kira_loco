@@ -6,7 +6,7 @@
 .header, .main-1, .footer {
   display: flex;
   position: relative;
-  background: linear-gradient(to right, #000 35%, #fff 32%);
+  background: linear-gradient(to right, #000 24%, #fff 10%);
 }
 
 .header {
@@ -14,16 +14,16 @@
 }
 
 .header__logo {
-  font: 500 30px/37px montserrat_regular, arial, helvetica, sans-serif;
+  font: 500 33px/37px montserrat_regular, arial, helvetica, sans-serif;
   display: flex;
-  padding: 36px 20% 0px 52px;
+  padding: 1.9% 12.7% 0 2.8%;
   color: #fff;
 }
 
 .lang {
   display: inline-block;
   padding-top: 25px;
-  font: 500 20px/24px montserrat_regular, arial, helvetica, sans-serif;
+  font: 500 20px/19px montserrat_regular, arial, helvetica, sans-serif;
   display: flex;
   color: #fff;
   cursor: pointer;
@@ -37,10 +37,10 @@
   cursor: pointer;
   background: #000;
   border: solid white;
-  border-width: 0 3px 3px 0;
+  border-width: 0 2px 2px 0;
   display: inline-flex;
   padding: 3px;
-  margin-left: 7px;
+  margin-left: 26%;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   transition: 0.5s ease-in-out;
@@ -54,7 +54,7 @@
   height: 92px;
   width: 92px;
   background: #F2F2F2;
-  margin-left: 66%;
+  margin-left: 48%;
   transition: 0.3s;
 }
 
@@ -74,39 +74,44 @@
 .menu__item-2 {
   margin: 0 auto;
   width: 35px;
-  height: 3.5px;
+  height: 4px;
   background: black;
   margin-bottom: 40px;
 }
 
 .main-1 {
-  padding-left: 186px;
-  padding-top: 169px;
-  padding-bottom: 169px;
+  padding-left: 9.8%;
+  padding-top: 4%;
+  padding-bottom: 4.5%;
+}
+
+.main-1__content {
+  width: 40%;
 }
 .main-1__content_title {
-  font: bold 80px/82px montserrat_regular, arial, helvetica, sans-serif;
+  letter-spacing: -4px;
+  padding-top: 6%;
+  font: 800 82px/80px montserrat_regular, arial, helvetica, sans-serif;
   color: #000;
-  margin-bottom: 26px;
-  margin-left: 56px;
+  margin-bottom: 1.9%;
+  margin-left: 8%;
 }
 
 .main-1__content_subtitle {
-  font: 15px/21px montserrat_regular, arial, helvetica, sans-serif;
+  font: 18px/21px montserrat_regular, arial, helvetica, sans-serif;
   color: #000;
-  margin-left: 56px;
-  margin-bottom: 36px;
-  margin: 0 0 36px 56px auto;
-  width: 467px;
+  margin-left: 8%;
+  margin-bottom: 7%;
+  width: 70%;
 }
 
 .main-1__content_button {
   font: 13px/0px montserrat_regular, arial, helvetica, sans-serif;
-  padding: 14px 41px;
+  padding: 13px 48px;
   color: #000;
   background: #fff;
   border: 1.5px solid black;
-  margin: 0 54px 0 56px;
+  margin: 0 7% 0 7%;
   cursor: pointer;
   transition: 0.5s ease-in-out;
 }
@@ -133,6 +138,7 @@ font-style: bold;
   position: relative;
   display: inline-block;
   margin-left: 16px;
+  padding-right: 10px;
   margin-bottom: 4px;
   width: 43px;
   height: 1px;
@@ -170,8 +176,8 @@ font-style: bold;
 }
 
 .social {
-  margin-right: 12px;
-  margin-bottom: 42px;
+  margin-right: 0.6%;
+  margin-bottom: 1.8%;
   transition: 0.5s;
 }
 
@@ -184,6 +190,6 @@ font-style: bold;
 }
 
 .footer__scroll {
+  margin-left: 25.8%;
   padding-bottom: 40px;
-  margin: 0 auto;
 }
