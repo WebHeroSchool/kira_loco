@@ -1,8 +1,11 @@
 .body {
-  margin: 0 auto;
+  margin: 0;
   padding-bottom: 100%;
 }
 
+
+
+/* CТРАНИЦА 1 */
 .header, .main-1, .footer {
   display: flex;
   position: relative;
@@ -167,14 +170,6 @@ font-style: bold;
     transform: rotate(-45deg);
 }
 
-.main-2 {
-  background: #FAE8E4;
-}
-
-.main-3 {
-  background: #EBE3D8;
-}
-
 .social {
   margin-right: 0.6%;
   margin-bottom: 1.8%;
@@ -192,4 +187,185 @@ font-style: bold;
 .footer__scroll {
   margin-left: 25.8%;
   padding-bottom: 40px;
+}
+
+
+
+/* СТРАНИЦА 2 */
+.main-2 {
+  background: #FAE8E4;
+}
+
+.main-2__bags_pink {
+  position: relative;
+  padding-left: 98px;
+  background: left 40% no-repeat url('images/gray-bag.svg');
+  margin: 1.9% 3.5% 0 7%;
+}
+
+.main-2__box {
+  margin-top: 8.7%;
+  position: absolute;
+  height: 45%;
+  width: 19%;
+  background: #fff;
+  box-shadow: 16px 13px 57px -40px black;
+  padding: 19px 65px 56px 54px;
+}
+
+.main-2__title {
+  font: 700 45px/30px montserrat_regular, arial, helvetica, sans-serif;
+  margin-bottom: 4%
+}
+
+.main-2__subtitle {
+  opacity: 0.5;
+  color: black;
+  letter-spacing: 0.07em;
+  font: 700 17px/16px montserrat_regular, arial, helvetica, sans-serif;
+  margin-bottom: 17%;
+}
+
+.main-2__text {
+  color: black;
+  opacity: 0.5;
+  margin-bottom: 9%;
+  letter-spacing: 0.37px;
+  font: 400 16px/21px montserrat_regular, arial, helvetica, sans-serif;
+}
+
+.main-2__col {
+  text-align: left;
+  justify-content: space-between;
+  width: 100%;
+  height: 22%;
+}
+
+.main-2__col_gray, .main-2__col_blue, .main-2__col_green {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 8px;
+  margin-top: 19px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  transition: .5s;
+}
+
+.main-2__col_gray {
+  background: #DEDEDE;
+}
+
+.main-2__col_pink {
+  position: static;
+  display: inline-block;
+  margin-right: 12px;
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  background: #F29F9F;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.main-2__col_blue {
+  background: #A8BFF9;
+}
+
+.main-2__col_green {
+  background: #90BD8F;
+  margin-right: 64px;
+}
+
+.main-2__co_price {
+  position: absolute;
+ display: inline-block;
+ margin-top: 0;
+ letter-spacing: -0.6px;
+ font: 700 46px/63px montserrat_regular, arial, helvetica, sans-serif;
+}
+
+.main-2__col_gray:hover, .main-2__col_blue:hover, .main-2__col_green:hover {
+  height: 38px;
+  width: 38px;
+}
+
+.main-2__col_gray:hover:after, .main-2__col_blue:hover:after, .main-2__col_green:hover:after {
+  height: 30px;
+  width: 30px;
+}
+
+.main-2__amt {
+  font: 500 15px/0 montserrat_regular, arial, helvetica, sans-serif;
+  display: inline-block;
+  justify-content: space-between;
+ text-align: center;
+  height: 6%;
+  width: 24%;
+  border: 1.5px solid black;
+  padding: 4px 5px;
+  margin-right: 3.3%;
+}
+
+.main-2__amt_plus, .main-2__amt_minus {
+  display: inline-block;
+  margin-top: 20%;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.main-2__amt_num {
+  margin: 0 22px 0 22px;
+  display: inline-block;
+  margin-top: 20%;
+  justify-content: space-between;
+}
+
+.main-2__button {
+  height: 7%;
+  width: 80%;
+  border: solid 1.5px black;
+  padding: 10px 46px;
+  font: 700 13px/0 montserrat_regular, arial, helvetica, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  background: white;
+  color: black;
+  transition: .5s ease-in-out;
+}
+
+.main-2__button:hover {
+  background: black;
+  color: white;
+}
+
+
+.footer-2 {
+ position: absolute;
+ margin-top: 39.8%;
+ width: 40%;
+}
+
+.main-2__next {
+  padding-left: 2%;
+  margin-right: 2%;
+  font: 500 13px/16px montserrat_regular, arial, helvetica, sans-serif;
+  transition: 0.8s ease-in-out;
+  cursor: pointer;
+}
+
+.main-2__next:hover {
+  letter-spacing: 1px;
+}
+
+.main-2__arrow {
+  display: inline-block;
+  height: 15px;
+  width: 241px;
+  background: center no-repeat url('images/big-arrow.svg');
+}
+
+/*СТРАНИЦА 3*/
+.main-3 {
+  background: #EBE3D8;
 }
