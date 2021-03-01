@@ -9,7 +9,7 @@
 .header, .main-1, .footer {
   display: flex;
   position: relative;
-  background: linear-gradient(to right, #000 24%, #fff 10%);
+  background: linear-gradient(to right, #000 32.5%, #fff 10%);
 }
 
 .header {
@@ -19,7 +19,7 @@
 .header__logo {
   font: 500 33px/37px montserrat_regular, arial, helvetica, sans-serif;
   display: flex;
-  padding: 1.9% 12.7% 0 2.8%;
+  padding: 2.6% 17% 0 4%;
   color: #fff;
 }
 
@@ -57,7 +57,7 @@
   height: 92px;
   width: 92px;
   background: #F2F2F2;
-  margin-left: 48%;
+  margin-left: 64%;
   transition: 0.3s;
 }
 
@@ -83,38 +83,38 @@
 }
 
 .main-1 {
-  padding-left: 9.8%;
-  padding-top: 4%;
-  padding-bottom: 4.5%;
+  padding-left: 13.1%;
+  padding-top: 5.2%;
+  padding-bottom: 6%;
 }
 
 .main-1__content {
-  width: 40%;
+  width: 46%;
 }
 .main-1__content_title {
   letter-spacing: -4px;
-  padding-top: 6%;
+  padding-top: 7%;
   font: 800 82px/80px montserrat_regular, arial, helvetica, sans-serif;
   color: #000;
-  margin-bottom: 1.9%;
-  margin-left: 8%;
+  margin-bottom: 3.5%;
+  margin-left: 9%;
 }
 
 .main-1__content_subtitle {
-  font: 18px/21px montserrat_regular, arial, helvetica, sans-serif;
+  font: 16px/21px montserrat_regular, arial, helvetica, sans-serif;
   color: #000;
-  margin-left: 8%;
-  margin-bottom: 7%;
-  width: 70%;
+  margin-left: 9%;
+  margin-bottom: 9%;
+  width: 75%;
 }
 
 .main-1__content_button {
   font: 13px/0px montserrat_regular, arial, helvetica, sans-serif;
-  padding: 13px 48px;
+  padding: 13px 45px;
   color: #000;
   background: #fff;
   border: 1.5px solid black;
-  margin: 0 7% 0 7%;
+  margin: 0 8.5% 0 9%;
   cursor: pointer;
   transition: 0.5s ease-in-out;
 }
@@ -171,7 +171,7 @@ font-style: bold;
 }
 
 .social {
-  margin-right: 0.6%;
+  margin-right: 0.8%;
   margin-bottom: 1.8%;
   transition: 0.5s;
 }
@@ -185,8 +185,8 @@ font-style: bold;
 }
 
 .footer__scroll {
-  margin-left: 25.8%;
-  padding-bottom: 40px;
+  margin-left: 34.4%;
+  padding-bottom: 49px;
 }
 
 
@@ -351,7 +351,7 @@ font-style: bold;
   margin-right: 2%;
   font: 500 13px/16px montserrat_regular, arial, helvetica, sans-serif;
   transition: 0.8s ease-in-out;
-  cursor: pointer;
+  cursor:
 }
 
 .main-2__next:hover {
@@ -368,4 +368,93 @@ font-style: bold;
 /*СТРАНИЦА 3*/
 .main-3 {
   background: #EBE3D8;
+}
+
+.main-3__look-picture {
+  height: 900px;
+  width: 73px;
+  background: black;
+  margin-left: 27.8%;
+}
+
+.look-picture__full {
+  position: absolute;
+  margin-left: -21%;
+  margin-top: 10%;
+}
+
+.main-3__box {
+  position: absolute;
+  margin-left: 58%;
+  margin-top: -46%;
+  height: 276px;
+  width: 374px;
+  background: #FAE8E4;
+  padding: 12px 53px 45px 47px;
+  font-family: montserrat_regular, arial, helvetica, sans-serif;
+}
+
+.main-3__title {
+  font-size: 43px;
+  line-height: 34px;
+  font-weight: 700;
+  margin-bottom: 4.5%;
+}
+
+.main-3__subtitle {
+  opacity: 0.5;
+  color: black;
+  letter-spacing: 0.07em;
+  font: 700 17px/13px montserrat_regular, arial, helvetica, sans-serif;
+  margin-bottom: 10%;
+}
+
+.main-3__text {
+  width: 342px;
+opacity: 0.5;
+font: 400 17px/21px montserrat_regular, arial, helvetica, sans-serif;
+}
+
+.main-2__amt {
+  font: 500 15px/0 montserrat_regular, arial, helvetica, sans-serif;
+  display: inline-block;
+  justify-content: space-between;
+ text-align: center;
+  height: 6%;
+  width: 24%;
+  border: 1.5px solid black;
+  padding: 4px 5px;
+  margin-right: 3.3%;
+}
+
+.main-3__amt_plus, .main-3__amt_minus {
+  display: inline-block;
+  margin-top: 20%;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.main-3__amt_num {
+  margin: 0 22px 0 22px;
+  display: inline-block;
+  margin-top: 20%;
+  justify-content: space-between;
+}
+
+.main-3__button {
+  height: 7%;
+  width: 80%;
+  border: solid 1.5px black;
+  padding: 10px 46px;
+  font: 700 13px/0 montserrat_regular, arial, helvetica, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  background: #FAE8E4;
+  color: black;
+  transition: .5s ease-in-out;
+}
+
+.main-3__button:hover {
+  background: black;
+  color: #FAE8E4;
 }
