@@ -1,6 +1,5 @@
-.body {
+body {
   margin: 0;
-  padding-bottom: 100%;
 }
 
 
@@ -93,17 +92,17 @@
 }
 .main-1__content_title {
   letter-spacing: -4px;
-  padding-top: 7%;
+  padding-top: 6%;
   font: 800 82px/80px montserrat_regular, arial, helvetica, sans-serif;
   color: #000;
   margin-bottom: 3.5%;
-  margin-left: 9%;
+  margin-left: 10%;
 }
 
 .main-1__content_subtitle {
   font: 16px/21px montserrat_regular, arial, helvetica, sans-serif;
   color: #000;
-  margin-left: 9%;
+  margin-left: 10%;
   margin-bottom: 9%;
   width: 75%;
 }
@@ -114,7 +113,7 @@
   color: #000;
   background: #fff;
   border: 1.5px solid black;
-  margin: 0 8.5% 0 9%;
+  margin: 0 8.5% 0 10%;
   cursor: pointer;
   transition: 0.5s ease-in-out;
 }
@@ -194,23 +193,24 @@ font-style: bold;
 /* СТРАНИЦА 2 */
 .main-2 {
   background: #FAE8E4;
+  padding-bottom: 25px;
 }
 
 .main-2__bags_pink {
   position: relative;
-  padding-left: 98px;
+  padding-left: 97px;
   background: left 40% no-repeat url('images/gray-bag.svg');
-  margin: 1.9% 3.5% 0 7%;
+  margin: 1.9% 4.5% 0 9.3%;
 }
 
 .main-2__box {
-  margin-top: 8.7%;
+  margin-top: 11.7%;
   position: absolute;
-  height: 45%;
-  width: 19%;
+  height: 53%;
+  width: 26%;
   background: #fff;
   box-shadow: 16px 13px 57px -40px black;
-  padding: 19px 65px 56px 54px;
+  padding: 12px 64px 65px 57px;
 }
 
 .main-2__title {
@@ -303,8 +303,8 @@ font-style: bold;
   height: 6%;
   width: 24%;
   border: 1.5px solid black;
-  padding: 4px 5px;
-  margin-right: 3.3%;
+  padding: 7px 5px;
+  margin-right: 2.3%;
 }
 
 .main-2__amt_plus, .main-2__amt_minus {
@@ -325,7 +325,7 @@ font-style: bold;
   height: 7%;
   width: 80%;
   border: solid 1.5px black;
-  padding: 10px 46px;
+  padding: 17px 49px 11px 49px;
   font: 700 13px/0 montserrat_regular, arial, helvetica, sans-serif;
   text-decoration: none;
   cursor: pointer;
@@ -342,16 +342,16 @@ font-style: bold;
 
 .footer-2 {
  position: absolute;
- margin-top: 39.8%;
+ margin-top: 52.8%;
  width: 40%;
 }
 
 .main-2__next {
   padding-left: 2%;
-  margin-right: 2%;
+  margin-right: 4%;
   font: 500 13px/16px montserrat_regular, arial, helvetica, sans-serif;
   transition: 0.8s ease-in-out;
-  cursor:
+  cursor: pointer;
 }
 
 .main-2__next:hover {
@@ -381,16 +381,16 @@ font-style: bold;
   position: absolute;
   margin-left: -21%;
   margin-top: 10%;
+  box-shadow: -5px 14px 71px -48px black;
 }
 
 .main-3__box {
+  margin: -44.5% 0 10% 57.5%;
   position: absolute;
-  margin-left: 58%;
-  margin-top: -46%;
   height: 276px;
   width: 374px;
   background: #FAE8E4;
-  padding: 12px 53px 45px 47px;
+  padding: 6px 53px 70px 46px;
   font-family: montserrat_regular, arial, helvetica, sans-serif;
 }
 
@@ -411,16 +411,17 @@ font-style: bold;
 
 .main-3__text {
   width: 342px;
-opacity: 0.5;
-font: 400 17px/21px montserrat_regular, arial, helvetica, sans-serif;
+  opacity: 0.5;
+  font: 400 17px/21px montserrat_regular, arial, helvetica, sans-serif;
+  margin-bottom: 14%;
 }
 
-.main-2__amt {
+.main-3__amt {
   font: 500 15px/0 montserrat_regular, arial, helvetica, sans-serif;
   display: inline-block;
   justify-content: space-between;
  text-align: center;
-  height: 6%;
+  height: 13%;
   width: 24%;
   border: 1.5px solid black;
   padding: 4px 5px;
@@ -432,6 +433,11 @@ font: 400 17px/21px montserrat_regular, arial, helvetica, sans-serif;
   margin-top: 20%;
   justify-content: space-between;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.main-3__amt_plus:hover, .main-3__amt_minus:hover {
+  font-weight: 900;
 }
 
 .main-3__amt_num {
@@ -442,10 +448,11 @@ font: 400 17px/21px montserrat_regular, arial, helvetica, sans-serif;
 }
 
 .main-3__button {
+  display: inline-block;
   height: 7%;
-  width: 80%;
+  width: 41%;
   border: solid 1.5px black;
-  padding: 10px 46px;
+  padding: 22px 49px 4px 49px;
   font: 700 13px/0 montserrat_regular, arial, helvetica, sans-serif;
   text-decoration: none;
   cursor: pointer;
@@ -457,4 +464,30 @@ font: 400 17px/21px montserrat_regular, arial, helvetica, sans-serif;
 .main-3__button:hover {
   background: black;
   color: #FAE8E4;
+}
+
+.footer-3 {
+ margin-top: 22%;
+ margin-left: 19%;
+ width: 129%;
+}
+
+.footer-3__arrow {
+  display: inline-block;
+  height: 15px;
+  width: 110px;
+  margin-left: -20%;
+  background: center no-repeat url('images/medium-arrow.svg');
+}
+
+.footer-3__next {
+  padding-left: 0;
+  margin-right: 25%;
+  font: 500 13px/16px montserrat_regular, arial, helvetica, sans-serif;
+  transition: 0.8s ease-in-out;
+  cursor: pointer;
+}
+
+.footer-3__next:hover {
+  letter-spacing: 1px;
 }
