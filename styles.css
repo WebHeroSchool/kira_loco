@@ -12,7 +12,7 @@ body {
 }
 
 .header {
-  justify-content: start;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -21,6 +21,11 @@ body {
   display: flex;
   padding: 2.6% 17% 0 4%;
   color: #fff;
+}
+
+.options {
+  margin-right: 61.7%;
+
 }
 
 .lang {
@@ -57,7 +62,6 @@ body {
   height: 92px;
   width: 92px;
   background: #F2F2F2;
-  margin-left: 64%;
   transition: 0.3s;
 }
 
@@ -440,12 +444,12 @@ font-style: bold;
   font: 500 15px/0 montserrat_regular, arial, helvetica, sans-serif;
   display: inline-block;
   justify-content: space-between;
- text-align: center;
-  height: 13%;
+  text-align: center;
+  height: 6%;
   width: 24%;
   border: 1.5px solid black;
-  padding: 4px 5px;
-  margin-right: 3.3%;
+  padding: 1% 1% 6.5%;
+  margin-right: 2.3%;
 }
 
 .main-3__amt_plus, .main-3__amt_minus {
@@ -616,7 +620,7 @@ font-style: bold;
     }
 
     .main-2 {
-      height: 814px;
+      height: 802px;
     }
 
     .main-2__bags_pink {
@@ -630,7 +634,7 @@ font-style: bold;
       display: block;
       margin: 0 0 0 7%;
       width: 77%;
-      height: 47%;
+      height: 31%;
       padding: 1% 0% 0% 8%;
     }
 
