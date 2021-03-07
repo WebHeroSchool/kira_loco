@@ -13,6 +13,7 @@ body {
 
 .header {
   justify-content: start;
+  width: 100%;
 }
 
 .header__logo {
@@ -66,45 +67,52 @@ body {
 
 .menu__item-1 {
   margin: 0 auto;
-  width: 35px;
-  height: 3.5px;
+  width: 41%;
+  height: 4%;
   background: black;
-  margin-bottom: 6px;
-  margin-top: 40px;
+  margin-bottom: 7%;
+  margin-top: 47%;
 }
 
 .menu__item-2 {
   margin: 0 auto;
-  width: 35px;
-  height: 4px;
+  width: 41%;
+  height: 4%;
   background: black;
-  margin-bottom: 40px;
+  margin-bottom: 42%;
 }
 
 .main-1 {
-  padding-left: 13.1%;
-  padding-top: 5.2%;
-  padding-bottom: 6%;
+  width: 100%;
+}
+
+.main-1-mob {
+  display: none;
+}
+
+.main-1__picture {
+  margin: 5.2% 0 6% 13%;
+  width: 549px;
+  height: 562px;
 }
 
 .main-1__content {
   width: 46%;
+  padding: 5% 0 0 3.5%;
 }
 .main-1__content_title {
-  letter-spacing: -4px;
+  letter-spacing: -3px;
   padding-top: 6%;
   font: 800 82px/80px montserrat_regular, arial, helvetica, sans-serif;
   color: #000;
   margin-bottom: 3.5%;
-  margin-left: 10%;
 }
 
 .main-1__content_subtitle {
   font: 16px/21px montserrat_regular, arial, helvetica, sans-serif;
   color: #000;
-  margin-left: 10%;
-  margin-bottom: 9%;
-  width: 75%;
+  margin-bottom: 8%;
+  width: 67%;
 }
 
 .main-1__content_button {
@@ -113,7 +121,7 @@ body {
   color: #000;
   background: #fff;
   border: 1.5px solid black;
-  margin: 0 8.5% 0 10%;
+  margin: 0 8.5% 0 0;
   cursor: pointer;
   transition: 0.5s ease-in-out;
 }
@@ -169,6 +177,10 @@ font-style: bold;
     transform: rotate(-45deg);
 }
 
+.footer {
+  width: 100%;
+}
+
 .social {
   margin-right: 0.8%;
   margin-bottom: 1.8%;
@@ -193,7 +205,8 @@ font-style: bold;
 /* СТРАНИЦА 2 */
 .main-2 {
   background: #FAE8E4;
-  padding-bottom: 25px;
+  width: 100%;
+  height: 900px;
 }
 
 .main-2__bags_pink {
@@ -201,16 +214,18 @@ font-style: bold;
   padding-left: 97px;
   background: left 40% no-repeat url('images/gray-bag.svg');
   margin: 1.9% 4.5% 0 9.3%;
+  max-width: 100%;
+  background-size: 56%;
 }
 
 .main-2__box {
-  margin-top: 11.7%;
+  margin-top: 12%;
   position: absolute;
   height: 53%;
-  width: 26%;
+  width: 25%;
   background: #fff;
   box-shadow: 16px 13px 57px -40px black;
-  padding: 12px 64px 65px 57px;
+  padding: 0.4% 5.5% 4.5% 3.5%;
 }
 
 .main-2__title {
@@ -219,6 +234,7 @@ font-style: bold;
 }
 
 .main-2__subtitle {
+  letter-spacing: 4px;
   opacity: 0.5;
   color: black;
   letter-spacing: 0.07em;
@@ -303,7 +319,7 @@ font-style: bold;
   height: 6%;
   width: 24%;
   border: 1.5px solid black;
-  padding: 7px 5px;
+  padding: 1% 1% 3%;
   margin-right: 2.3%;
 }
 
@@ -325,7 +341,7 @@ font-style: bold;
   height: 7%;
   width: 80%;
   border: solid 1.5px black;
-  padding: 17px 49px 11px 49px;
+  padding: 4% 13%;
   font: 700 13px/0 montserrat_regular, arial, helvetica, sans-serif;
   text-decoration: none;
   cursor: pointer;
@@ -342,7 +358,7 @@ font-style: bold;
 
 .footer-2 {
  position: absolute;
- margin-top: 52.8%;
+ margin-top: 53.5%;
  width: 40%;
 }
 
@@ -367,6 +383,8 @@ font-style: bold;
 
 /*СТРАНИЦА 3*/
 .main-3 {
+  width: 100%;
+  height: 900px;
   background: #EBE3D8;
 }
 
@@ -374,18 +392,19 @@ font-style: bold;
   height: 900px;
   width: 73px;
   background: black;
-  margin-left: 27.8%;
+  margin-left: 27%;
+  position: absolute;
 }
 
 .look-picture__full {
-  position: absolute;
-  margin-left: -21%;
-  margin-top: 10%;
+  position: relative;
+  margin-left: -415%;
+  margin-top: 190%;
   box-shadow: -5px 14px 71px -48px black;
 }
 
 .main-3__box {
-  margin: -44.5% 0 10% 57.5%;
+  margin: 17.5% 0 11% 56.6%;
   position: absolute;
   height: 276px;
   width: 374px;
@@ -491,3 +510,249 @@ font-style: bold;
 .footer-3__next:hover {
   letter-spacing: 1px;
 }
+
+
+
+/* РАЗРЕШЕНИЕ 1920px */
+@media (min-width: 1920px) {
+  .main-1, .header, .main-2, .main-3, .footer {
+    width: 100%;
+  }
+
+  .main-2, .main-3 {
+    height: 100%;
+  }
+
+  .footer-2 {
+    margin-top: 50%;
+  }
+
+  .main-3__look-picture {
+    height: 100%;
+  }
+
+  .look-picture__full {
+      margin-top: 270%;
+  }
+
+  .main-3 {
+    background: #ebe3d8;
+  }
+}
+
+
+
+@media (max-width: 500px) {
+    .main-1, .header, .main-2, .main-3, .footer {
+      width: 100%;
+    }
+
+    .header, .header__logo_mob {
+    background: white;
+    color: black;
+    }
+
+    .header__logo_mob {
+      padding: 4% 0 0 7%;
+      text-align: center;
+    }
+
+    .header {
+      justify-content: space-between;
+    }
+
+    .lang {
+      display: none;
+    }
+
+    .menu {
+      margin-left: 10%;
+      height: 70px;
+      width: 70px;
+    }
+
+    .main-1__content, .main-1__picture, .footer, .footer-2, .main-3__amt, .main-2__amt {
+      display: none;
+    }
+
+
+    .main-1-mob {
+      display: block;
+      margin-top: -55.5%;
+    }
+
+    .main-1-mob__content_title {
+      position: absolute;
+      text-align: left;
+      padding: 0 8%;
+      letter-spacing: 1px;
+      font: 700 55px/51px montserrat_regular, arial, helvetica, sans-serif;
+    }
+
+    .main-1-mob__arrow {
+      position: absolute;
+      content: '';
+      border: solid black;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 10px;
+      -webkit-transform: rotate(45deg);
+      transition: .5s;
+      margin-top: 42.5%;
+      margin-left: 48%;
+      cursor: pointer;
+    }
+
+    .main-1-mob__arrow:hover {
+      border-width: 0 4px 4px 0;
+    }
+
+    .main-1 {
+      background: center 93% no-repeat url('images/mob-main-1-img.svg');
+      height: 531px;
+      background-size: 100%;
+      padding: 0 0;
+    }
+
+    .main-2 {
+      height: 814px;
+    }
+
+    .main-2__bags_pink {
+      margin: 41% 0 -5% 19%;
+      background: none;
+      width: 61%;
+      padding: 0;
+    }
+
+    .main-2__box {
+      display: block;
+      margin: 0 0 0 7%;
+      width: 77%;
+      height: 47%;
+      padding: 1% 0% 0% 8%;
+    }
+
+    .main-2__title {
+      font: 700 22px/20px montserrat_regular, arial, helvetica, sans-serif;
+      margin-bottom: -3%;
+    }
+
+    .main-2__subtitle {
+      font: 700 9px/10px montserrat_regular, arial, helvetica, sans-serif;
+      margin-bottom: 2%;
+    }
+
+    .main-2__text {
+      font: 500 10px/13px montserrat_regular, arial, helvetica, sans-serif;
+      margin-bottom: 0%;
+      width: 88%;
+    }
+
+    .main-2__col {
+      margin-bottom: 9%;
+    }
+
+    .main-2__col_gray {
+      margin-left: 1%;
+    }
+
+    .main-2__col_gray, .main-2__col_blue, .main-2__col_green {
+      height: 22px;
+      width: 22px;
+      margin-top: 10px;
+      margin-right: 6px;
+    }
+
+    .main-2__col_pink {
+      height: 30px;
+      width: 30px;
+      margin-right: 8px;
+      margin-top: 6%;
+    }
+
+    .main-2__col_green {
+      margin-right: 20%;
+    }
+
+    .main-2__co_price {
+      margin-top: 7%;
+      font: 700 23px/28px montserrat_regular, arial, helvetica, sans-serif;
+    }
+
+    .main-2__button {
+      padding: 4% 19%;
+      border: solid 1px black;
+    }
+
+
+    .main-3 {
+      height: 596px;
+    }
+
+    .main-3__look-picture {
+      width: 41px;
+      height: 596px;
+    }
+
+    .look-picture__full {
+      width: 348px;
+      margin-left: -215%;
+      margin-top: 84%;
+    }
+
+    .main-3__box {
+      width: 205px;
+      height: 119px;
+      display: block;
+      margin: 72.5% 0 0 12%;
+      padding: 2% 20% 18% 6%;
+      display: inline-block;
+    }
+
+    .main-3__title {
+        font: 700 22px/20px montserrat_regular, arial, helvetica, sans-serif;
+        margin-bottom: -1%;
+    }
+
+    .main-3__subtitle {
+        font: 700 11px/10px montserrat_regular, arial, helvetica, sans-serif;
+        margin-bottom: -2%;
+    }
+
+    .main-3__text {
+        font: 500 10px/13px montserrat_regular, arial, helvetica, sans-serif;
+        width: 108%;
+        margin-bottom: 12%;
+    }
+
+    .main-3__button {
+      padding: 8% 9% 9% 22%;
+      border: 1px solid black;
+      width: 95%;
+      height: 0%;
+      font: 500 13px/0 montserrat_regular, arial, helvetica, sans-serif;
+      letter-spacing: 1px;
+    }
+
+    .footer-3 {
+      margin-left: 59%;
+      margin-top: 33%;
+      width: 76%;
+      letter-spacing: 2px;
+    }
+
+    .footer-3__arrow {
+      cursor: pointer;
+      background: center no-repeat url('images/mob-big-arrow.svg');
+      width: 136px;
+      margin-left: 0%;
+    }
+
+    .footer-3__next {
+      transition: .3s;
+    }
+
+    .footer-3__next:hover {
+      font-weight: 700;
+    }
