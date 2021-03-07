@@ -216,6 +216,7 @@ font-style: bold;
   margin: 1.9% 4.5% 0 9.3%;
   max-width: 100%;
   background-size: 56%;
+  margin-bottom: -6%;
 }
 
 .main-2__box {
@@ -357,14 +358,14 @@ font-style: bold;
 
 
 .footer-2 {
- position: absolute;
- margin-top: 53.5%;
+ position: relative;
+ margin-left: -2%;
  width: 40%;
 }
 
 .main-2__next {
   padding-left: 2%;
-  margin-right: 4%;
+  margin-right: 2%;
   font: 500 13px/16px montserrat_regular, arial, helvetica, sans-serif;
   transition: 0.8s ease-in-out;
   cursor: pointer;
