@@ -8,7 +8,7 @@ body {
 .header, .main-1, .footer {
   display: flex;
   position: relative;
-  background: linear-gradient(to right, #000 32.5%, #fff 10%);
+  background: linear-gradient(to right, #000 37.5%, #fff 10%);
 }
 
 .header {
@@ -545,7 +545,85 @@ font-style: bold;
   }
 }
 
+@media (max-width: 1100px) {
+  .main-1, .header, .main-2, .main-3, .footer {
+    width: 115%;
+  }
 
+  .options {
+    margin-right: 59.7%;
+  }
+
+  .main-1__picture {
+    margin: 5.2% 0 6% 8%;
+  }
+
+  .main-2__bags_pink {
+    max-width: 41%;
+    margin: 1.9% 2.5% 0 5.3%;
+  }
+
+  .main-2__box {
+    width: 35%;
+  }
+
+  .main-3__box {
+    margin: 21.5% 0 11% 62.6%;
+  }
+
+  .footer-3 {
+    width: 106%;
+  }
+
+  .look-picture__full {
+    width: 946%;
+    margin-left: -300%;
+  }
+}
+
+ @media (max-width: 800px) {
+  .main-1, .header, .main-2, .main-3, .footer {
+    width: 161%;
+  }
+
+  .header, .main-1, .footer {
+  background: linear-gradient(to right, #000 37.5%, #fff 10%);
+  }
+
+  .main-1__content {
+        padding-left: 2.5%;
+  }
+
+  .main-1__content_button {
+    margin: 0 5.5% 0 0;
+  }
+
+  .main-1__content_arrow {
+    margin-left: 1%;
+  }
+
+  .main-1__content_subtitle {
+    width: 85%;
+  }
+
+  .main-2__bags_pink {
+    max-width: 36%;
+    margin-bottom: 4%;
+  }
+
+  .main-2__box {
+    height: 59%;
+    width: 52%;
+  }
+
+  .options {
+    margin-right: 60.7%;
+  }
+
+  .main-3__box {
+    margin: 35.5% 0 11% 83.6%;
+  }
+}
 
 @media (max-width: 500px) {
     .main-1, .header, .main-2, .main-3, .footer {
@@ -571,7 +649,7 @@ font-style: bold;
     }
 
     .menu {
-      margin-left: 10%;
+      margin-left: -15%;
       height: 70px;
       width: 70px;
     }
@@ -635,7 +713,7 @@ font-style: bold;
       margin: 0 0 0 7%;
       width: 77%;
       height: 31%;
-      padding: 1% 0% 0% 8%;
+      padding: 1% 0% 8% 8%;
     }
 
     .main-2__title {
@@ -761,3 +839,39 @@ font-style: bold;
     .footer-3__next:hover {
       font-weight: 700;
     }
+  }
+
+@media (max-width: 325px) {
+  body {
+    width: 108%;
+  }
+
+  .main-2__bags_pink {
+    margin: 59% 0 5% 27%;
+  }
+
+  .main-2__box {
+    width: 85%;
+  }
+
+  .main-3__box {
+    margin: 81.5% 0 0 8%;
+    padding-bottom :21%;
+  }
+
+  .look-picture__full {
+    width: 319px;
+    margin-left: -187%;
+  }
+}
+
+@media (max-width: 430px) {
+  .main-1 {
+    background: center 60% no-repeat url(images/mob-main-1-img.svg);
+    background-size: 100%;
+  }
+
+  .main-2__bags_pink {
+    margin: 50% 0 -1% 29%;
+  }
+}
