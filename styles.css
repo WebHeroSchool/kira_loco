@@ -12,7 +12,6 @@ body {
 }
 
 .header {
-  justify-content: space-between;
   width: 100%;
 }
 
@@ -21,11 +20,6 @@ body {
   display: flex;
   padding: 2.6% 17% 0 4%;
   color: #fff;
-}
-
-.options {
-  margin-right: 61.7%;
-
 }
 
 .lang {
@@ -59,6 +53,7 @@ body {
 }
 
 .menu {
+  margin: 0 0 0 auto;
   height: 92px;
   width: 92px;
   background: #F2F2F2;
@@ -96,8 +91,7 @@ body {
 
 .main-1__picture {
   margin: 5.2% 0 6% 13%;
-  width: 549px;
-  height: 562px;
+  min-width: 40%;
 }
 
 .main-1__content {
@@ -213,25 +207,27 @@ font-style: bold;
   height: 900px;
 }
 
+.main-2__bags {
+  display: flex;
+}
+
 .main-2__bags_pink {
-  position: relative;
+  display: flex;
   padding-left: 97px;
   background: left 40% no-repeat url('images/gray-bag.svg');
   margin: 1.9% 4.5% 0 9.3%;
-  max-width: 100%;
+  max-width: 40%;
   background-size: 56%;
   margin-bottom: -6%;
 }
 
 .main-2__box {
-  display: inline-table;
   margin: 11.5% 1% 4% 0%;
-  position: absolute;
   height: 53%;
   width: 26%;
   background: #fff;
   box-shadow: 16px 13px 57px -40px black;
-  padding: 1% 4.4% 5.5% 3.5%;
+  padding: 1% 4.4% 3.5% 4.5%;
 }
 
 .main-2__title {
@@ -261,6 +257,7 @@ font-style: bold;
   justify-content: space-between;
   width: 100%;
   height: 22%;
+  margin-bottom: 9%;
 }
 
 .main-2__col_gray, .main-2__col_blue, .main-2__col_green {
@@ -318,7 +315,7 @@ font-style: bold;
 }
 
 .footer-2 {
-  display: inline-block;
+  display: flex;
  position: relative;
  margin-left: -2%;
  width: 40%;
@@ -399,29 +396,17 @@ font-style: bold;
 
 .main-3__amt, .main-2__amt {
   font: 500 15px/0 montserrat_regular, arial, helvetica, sans-serif;
-  display: inline-block;
+  display: inline-flex;
   justify-content: space-between;
   text-align: center;
-  height: 6%;
-  width: 24%;
+  height: 38px;
+  width: 90px;
   border: 1.5px solid black;
-  margin-right: 2.3%;
-}
-
-.main-2__amt {
-  padding: 1% 1% 3.5%;
-}
-
-.main-3__amt {
-  padding: 1% 1% 4.5%;
+  margin-right: 15px;
 }
 
 .main-3__amt_plus, .main-3__amt_minus, .main-2__amt_plus, .main-2__amt_minus {
-  display: inline-block;
-  margin-top: 20%;
-  justify-content: space-between;
-  cursor: pointer;
-  transition: 0.3s;
+  margin: auto 6px;
 }
 
 .main-3__amt_plus:hover, .main-3__amt_minus:hover .main-2__amt_minus:hover, .main-2__amt_plus:hover {
@@ -429,27 +414,26 @@ font-style: bold;
 }
 
 .main-3__amt_num, .main-2__amt_num {
-  margin: 0 22px 0 22px;
-  display: inline-block;
-  margin-top: 20%;
-  justify-content: space-between;
+  margin: auto;
 }
 
 .main-3__button, .main-2__button {
   display: inline-block;
   border: solid 1.5px black;
-  padding: 22px 49px 4px 49px;
+  padding: 19px 0 0;
+  min-width: 250px;
+  min-height: 19px;
   font: 700 13px/0 montserrat_regular, arial, helvetica, sans-serif;
   text-decoration: none;
   cursor: pointer;
+  overflow-wrap: anywhere;
   transition: .5s ease-in-out;
+  text-align: center;
 }
 
 .main-2__button {
   color: black;
   background: white;
-  height: 4%;
-  width: 41%;
 }
 
 .main-2__button:hover {
@@ -530,10 +514,6 @@ font-style: bold;
     width: 115%;
   }
 
-  .options {
-    margin-right: 59.7%;
-  }
-
   .main-1__picture {
     margin: 5.2% 0 6% 8%;
   }
@@ -594,10 +574,6 @@ font-style: bold;
   .main-2__box {
     height: 59%;
     width: 52%;
-  }
-
-  .options {
-    margin-right: 60.7%;
   }
 
   .main-3__box {
