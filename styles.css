@@ -209,14 +209,14 @@ font-style: bold;
 
 .main-2__bags {
   display: inline-flex;
-  margin: 3% 3% 0 10%;
+  margin: 3% -6% 5% 5%;
   max-width: fit-content;
 }
 
 .main-2__bags_pink {
   padding-left: 97px;
   background: left 40% no-repeat url('images/gray-bag.svg');
-  max-width: 83%;
+  max-width: 65%;
   background-size: 56%;
 }
 
@@ -224,7 +224,7 @@ font-style: bold;
   position: absolute;
   display: inline-block;
   margin: 11.5% 1% 4% 0%;
-  width: 26%;
+  width: 29%;
   background: #fff;
   box-shadow: 16px 13px 57px -40px black;
   padding: 1% 4.4% 3.5% 4.5%;
@@ -317,7 +317,7 @@ font-style: bold;
 .footer-2 {
   display: inline-block;
  position: relative;
- margin-left: -2%;
+ margin-left: 60%;
  width: 40%;
 }
 
@@ -421,7 +421,7 @@ font-style: bold;
   display: inline-block;
   border: solid 1.5px black;
   padding: 19px 0 0;
-  min-width: 240px;
+  min-width: 195px;
   min-height: 19px;
   font: 700 13px/0 montserrat_regular, arial, helvetica, sans-serif;
   text-decoration: none;
@@ -520,7 +520,6 @@ font-style: bold;
   }
 
   .main-2__bags {
-    margin: 0;
     min-width: 0;
   }
 
@@ -530,6 +529,10 @@ font-style: bold;
 
   .main-2__box {
     width: 35%;
+  }
+
+  .footer-2 {
+    margin-left: 55%;
   }
 
   .main-3__box {
@@ -576,7 +579,6 @@ font-style: bold;
   }
 
   .main-2__box {
-    height: 59%;
     width: 52%;
   }
 
@@ -631,7 +633,6 @@ font-style: bold;
     .main-1-mob__content_title {
       position: absolute;
       text-align: left;
-      padding: 0 8%;
       letter-spacing: 1px;
       font: 700 55px/51px montserrat_regular, arial, helvetica, sans-serif;
     }
@@ -645,7 +646,7 @@ font-style: bold;
       padding: 10px;
       -webkit-transform: rotate(45deg);
       transition: .5s;
-      margin-top: 42.5%;
+      margin-top: 46.5%;
       margin-left: 48%;
       cursor: pointer;
     }
