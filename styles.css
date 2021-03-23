@@ -208,22 +208,22 @@ font-style: bold;
 }
 
 .main-2__bags {
-  display: flex;
+  display: inline-flex;
+  margin: 3% 3% 0 10%;
+  max-width: fit-content;
 }
 
 .main-2__bags_pink {
-  display: flex;
   padding-left: 97px;
   background: left 40% no-repeat url('images/gray-bag.svg');
-  margin: 1.9% 4.5% 0 9.3%;
-  max-width: 40%;
+  max-width: 83%;
   background-size: 56%;
-  margin-bottom: -6%;
 }
 
 .main-2__box {
+  position: absolute;
+  display: inline-block;
   margin: 11.5% 1% 4% 0%;
-  height: 53%;
   width: 26%;
   background: #fff;
   box-shadow: 16px 13px 57px -40px black;
@@ -315,7 +315,7 @@ font-style: bold;
 }
 
 .footer-2 {
-  display: flex;
+  display: inline-block;
  position: relative;
  margin-left: -2%;
  width: 40%;
@@ -406,7 +406,7 @@ font-style: bold;
 }
 
 .main-3__amt_plus, .main-3__amt_minus, .main-2__amt_plus, .main-2__amt_minus {
-  margin: auto 6px;
+  margin: auto 10px;
 }
 
 .main-3__amt_plus:hover, .main-3__amt_minus:hover .main-2__amt_minus:hover, .main-2__amt_plus:hover {
@@ -421,7 +421,7 @@ font-style: bold;
   display: inline-block;
   border: solid 1.5px black;
   padding: 19px 0 0;
-  min-width: 250px;
+  min-width: 240px;
   min-height: 19px;
   font: 700 13px/0 montserrat_regular, arial, helvetica, sans-serif;
   text-decoration: none;
@@ -443,6 +443,7 @@ font-style: bold;
 }
 
 .main-3__button {
+  margin-top: 15px;
   background: #FAE8E4;
   color: black;
   height: 4%;
@@ -518,9 +519,13 @@ font-style: bold;
     margin: 5.2% 0 6% 8%;
   }
 
+  .main-2__bags {
+    margin: 0;
+    min-width: 0;
+  }
+
   .main-2__bags_pink {
-    max-width: 41%;
-    margin: 1.9% 2.5% 0 5.3%;
+    min-width: 41%;
   }
 
   .main-2__box {
@@ -567,7 +572,6 @@ font-style: bold;
   }
 
   .main-2__bags_pink {
-    max-width: 36%;
     margin-bottom: 4%;
   }
 
@@ -602,6 +606,10 @@ font-style: bold;
 
     .lang {
       display: none;
+    }
+
+    .main-2__bags {
+      margin: 20% 3% 0 10%;
     }
 
     .menu {
@@ -653,14 +661,10 @@ font-style: bold;
       padding: 0 0;
     }
 
-    .main-2 {
-      height: 802px;
-    }
-
     .main-2__bags_pink {
-      margin: 41% 0 -5% 19%;
+      margin: 41% auto 0;
       background: none;
-      width: 61%;
+      max-width: 57%;
       padding: 0;
     }
 
@@ -719,8 +723,8 @@ font-style: bold;
       font: 700 23px/28px montserrat_regular, arial, helvetica, sans-serif;
     }
 
-    .main-2__button {
-      padding: 4% 19%;
+    .main-2__button, .main-3__button {
+      padding: 19px 0 0;
       border: solid 1px black;
     }
 
@@ -765,15 +769,6 @@ font-style: bold;
         margin-bottom: 12%;
     }
 
-    .main-3__button {
-      padding: 8% 9% 9% 22%;
-      border: 1px solid black;
-      width: 95%;
-      height: 0%;
-      font: 500 13px/0 montserrat_regular, arial, helvetica, sans-serif;
-      letter-spacing: 1px;
-    }
-
     .footer-3 {
       margin-left: 59%;
       margin-top: 33%;
@@ -802,10 +797,6 @@ font-style: bold;
     width: 108%;
   }
 
-  .main-2__bags_pink {
-    margin: 59% 0 5% 27%;
-  }
-
   .main-2__box {
     width: 85%;
   }
@@ -825,9 +816,5 @@ font-style: bold;
   .main-1 {
     background: center 60% no-repeat url(images/mob-main-1-img.svg);
     background-size: 100%;
-  }
-
-  .main-2__bags_pink {
-    margin: 50% 0 -1% 29%;
   }
 }
